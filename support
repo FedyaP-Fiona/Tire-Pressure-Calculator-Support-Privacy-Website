@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zap Tire Pressure Calculator - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px 30px;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            opacity: 0.95;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        h2:first-child {
+            margin-top: 0;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .faq-item h3 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+        }
+        
+        .contact-box {
+            background: #667eea;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-bottom: 2px solid white;
+        }
+        
+        .contact-box a:hover {
+            opacity: 0.8;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            opacity: 0.9;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .tagline {
+                font-size: 1.1em;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">⚡</div>
+            <h1>Zap Tire Pressure Calculator</h1>
+            <p class="tagline">Get Perfect Tire Pressure for Every Ride</p>
+        </header>
+
+        <div class="content">
+            <h2>About the App</h2>
+            <p>Zap Tire Pressure Calculator helps cyclists find the optimal tire pressure for their bikes using scientifically-based calculations. Whether you're racing on the road, exploring gravel paths, or tackling mountain trails, proper tire pressure makes all the difference in speed, comfort, and control.</p>
+
+            <h2>How to Use</h2>
+            <ol>
+                <li><strong>Add Your Bike:</strong> Tap the + button to create a new bike profile</li>
+                <li><strong>Enter Details:</strong> Fill in your bike name, system weight, riding preferences, and tire specifications</li>
+                <li><strong>Save & View:</strong> Save your bike and tap it to see recommended tire pressures</li>
+                <li><strong>Adjust as Needed:</strong> Edit your bike settings anytime to fine-tune for different conditions</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>What is "system weight"?</h3>
+                <p>System weight is the total weight of you, your bike, and any gear you're carrying. For most riders, this is your body weight plus about 15-25 lbs (7-11 kg) for the bike and equipment.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I add a new bike?</h3>
+                <p>Tap the + button in the top right corner of the main screen. Fill in all the required information about your bike and rider setup, then tap Save.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I use different settings for front and rear tires?</h3>
+                <p>Yes! The app allows you to configure different tire types, widths, and wheel sizes for front and rear wheels. If your tires are the same, you can use the "Same as Front" button to quickly copy settings.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I delete a bike?</h3>
+                <p>On the main screen, swipe left on any bike in the list and tap Delete. You can also tap Edit in the top left corner to enter edit mode for deleting multiple bikes.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What do the different tire types mean?</h3>
+                <p>
+                    <strong>Tubular:</strong> Tires sewn around an inner tube and glued to the rim<br>
+                    <strong>Tubeless:</strong> Tires that seal directly to the rim without an inner tube<br>
+                    <strong>Tubed Clincher:</strong> Standard tires with a separate inner tube and a bead that hooks onto the rim<br>
+                    <strong>Tubeless-ready:</strong> Tires designed to work tubeless but can also use tubes
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Why do I get different pressures for front and rear tires?</h3>
+                <p>Weight distribution on a bike is not equal - typically more weight is on the rear wheel. The app calculates optimal pressure for each wheel based on the weight distribution you select (TT/Track, Road, Gravel, or Mountain).</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Does the app work offline?</h3>
+                <p>Yes! All calculations are performed on your device. No internet connection is required.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is my data private?</h3>
+                <p>Absolutely. All your bike data is stored locally on your device only. We don't collect, store, or transmit any of your personal information.</p>
+            </div>
+        </div>
+
+        <div class="content contact-box">
+            <h2>Need Help?</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <p style="margin-top: 20px;">
+                <a href="mailto:support@example.com">support@example.com</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Fyodor Panchenko. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
